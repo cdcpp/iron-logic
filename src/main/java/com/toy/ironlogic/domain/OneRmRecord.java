@@ -35,9 +35,6 @@ public class OneRmRecord {
     private Double overheadPress;
 
     @Column(nullable = false)
-    private Double weight; // 1RM 무게 (kg)
-
-    @Column(nullable = false)
     private Integer cycle; // 루틴 사이클(1,2,3,4,~~~)
 
     private LocalDate recordDate; // 저장날짜
